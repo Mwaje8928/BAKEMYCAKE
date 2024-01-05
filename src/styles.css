@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+@font-face {
+    font-family: 'OrderName';
+    src: url('../src/assets/font/CreamySugar.ttf');
+}
+@font-face {
+    font-family: 'Roadster';
+    src: url('../src/assets/font/Roadster.ttf');
+}
+@font-face {
+    font-family: 'OrderDesc';
+    src: url('../src/assets/font/Nunito.ttf');
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,12 @@
+<div id="login-form">
+    <h3>If you are an Admin, enter your Admin Code</h3>
+    <mat-form-field appearance="outline">
+        <mat-label>Enter Admin Code</mat-label>
+        <input matInput name="adminCode" [(ngModel)]="adminCode" placeholder="Admin Code">
+    </mat-form-field>
+    <div *ngIf="adminCodeInvalid" class="error-message">
+        Invalid Admin Code. Please enter the correct Admin Code.
+    </div>
+    <button mat-button color="primary" (click)="validateAdminCode()">Submit</button>
+    <h3>If you are a Visitor, <a routerLink="">click here</a></h3>
+</div>

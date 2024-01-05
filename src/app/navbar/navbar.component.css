@@ -1,0 +1,18 @@
+.title {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  

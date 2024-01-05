@@ -1,0 +1,91 @@
+<section id="cake-content">
+
+    <div id="cake-detail">
+        <h1>{{cake?.name}}</h1>
+        <img src="../../assets/images/{{cake?.image}}">
+        <p>{{cake?.description}}</p>
+    </div>
+
+    <form id="order" >
+        <h1>Buy this Item</h1>
+
+        <h2>Price ₹{{cake?.price}} INR &nbsp;
+            <span id="per-item" *ngIf="cake?.category === 'cakes'"> PER ½ kg</span>
+            <span id="per-item" *ngIf="cake?.category === 'cookies'">PER Cookie</span>
+            <span id="per-item" *ngIf="cake?.category === 'cupcakes'">PER Cupcake</span>
+            <span id="per-item" *ngIf="cake?.category === 'brownies'">PER Brownie</span>
+        </h2>
+
+        <h3>Plan of purchase?</h3>
+        <mat-form-field appearance="fill">
+            <mat-label>Select Delivery Date</mat-label>
+            <input matInput [matDatepicker]="picker" required placeholder="Date" name="dateOfPurchase" [(ngModel)]="order.orderDate" #dateInput="ngModel">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-error *ngIf="dateInput.invalid && dateInput.touched">
+                Delivery date is required
+            </mat-error>
+        </mat-form-field>
+
+        <h3>Enter your personal details</h3>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" required minlength="3" placeholder="Name" name="customerName" [(ngModel)] = "order.customerName" #nameInput="ngModel">
+            <mat-error *ngIf="nameInput.errors?.['required'] && (nameInput.dirty || nameInput.touched)">
+                Name is required.
+            </mat-error>
+            <mat-error *ngIf="nameInput.errors?.['minlength'] && (nameInput.dirty || nameInput.touched)">
+              Name must be at least 3 characters long.
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" required placeholder="Email" name="customerEmail" [(ngModel)] = "order.customerEmail" #emailInput="ngModel">
+            <mat-error *ngIf="emailInput.errors?.['required'] && (emailInput.dirty || emailInput.touched)">
+                Email is required.
+            </mat-error>
+            
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input matInput type="phone" required minlength="10" placeholder="Phone" name="customerPhone" [(ngModel)] = "order.customerPhone" #phoneInput="ngModel">
+            <mat-error *ngIf="phoneInput.errors?.['required'] && (phoneInput.dirty || phoneInput.touched)">
+                Phone is required.
+            </mat-error>
+            <mat-error *ngIf="phoneInput.errors?.['minlength'] && (phoneInput.dirty || phoneInput.touched)">
+                Phone must be 10 digits long.
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Address</mat-label>
+            <input matInput type="address" required minlength="10" placeholder="Address" name="address" [(ngModel)] = "order.address" #addressInput="ngModel">
+            <mat-error *ngIf="addressInput.errors?.['required'] && (addressInput.dirty || addressInput.touched)">
+                Address is required.
+            </mat-error>
+            <mat-error *ngIf="addressInput.errors?.['minlength'] && (addressInput.dirty || addressInput.touched)">
+                Address must be at least 10 characters long.
+            </mat-error>
+        </mat-form-field>
+
+        <!-- Add order quantity input field -->
+<mat-form-field appearance="fill">
+    <mat-label>Quantity</mat-label>
+    <input matInput type="number" min="1" required placeholder="Quantity" name="quantity" [(ngModel)]="order.quantity" #quantityInput="ngModel">
+    <mat-error *ngIf="quantityInput.errors?.['required'] && (quantityInput.dirty || quantityInput.touched)">
+        Quantity is required.
+    </mat-error>
+    <mat-error *ngIf="quantityInput.errors?.['min'] && (quantityInput.dirty || quantityInput.touched)">
+        Quantity must be at least 1.
+    </mat-error>
+</mat-form-field>
+
+<!-- Display total price based on quantity -->
+<h3>Total Price: ₹{{ calculateTotalPrice() }}</h3>
+
+<button [disabled]="submitStatus"  mat-flat-button color="primary" (click)="makeRequest()">Make Request</button>
+
+    </form>
+</section>

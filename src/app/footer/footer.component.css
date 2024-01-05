@@ -1,0 +1,24 @@
+.footer {
+    height: fit-content;
+    justify-content:space-between;
+    color: #fff;
+    font-family: cursive;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
+span{
+    justify-content:flex-start;
+    padding: 10 10;
+}
+
+.imagesize{
+    margin: 15px 0;
+}
+
+.imagesize img {
+    justify-content: flex-end;
+    height: 25px;
+    margin: 0 10px;   
+}

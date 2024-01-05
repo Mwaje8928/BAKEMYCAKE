@@ -1,0 +1,11 @@
+<div id="header">
+    <mat-toolbar color="primary">
+        <a routerLink="/"><h1>Bake My Cake</h1></a>
+        <div id="icons">
+            <a routerLink="/landing"><mat-icon>home</mat-icon></a>
+            <a routerLink="/register-user"><mat-icon>person_add</mat-icon></a>
+            <mat-icon *ngIf="loggedIn!==true" matTooltip="login" routerLink="login">login</mat-icon>
+            <mat-icon *ngIf="loggedIn===true" matTooltip="logout" (click)="logout()">logout</mat-icon>
+        </div>
+    </mat-toolbar>
+</div>

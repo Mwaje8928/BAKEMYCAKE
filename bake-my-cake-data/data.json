@@ -1,0 +1,258 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Brownies Different Flavor",
+      "category": "brownies",
+      "description": "Indulge in a variety of rich and decadent brownie flavors with our Brownies Different Flavor assortment.",
+      "rating": 4.5,
+      "price": 250,
+      "image": "Brownies Different Flavor.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Isometric Chocolate Brownies",
+      "category": "brownies",
+      "description": "Experience the perfect blend of fudgy goodness and chocolatey delight with our Isometric Chocolate Brownies.",
+      "rating": 4.8,
+      "price": 280,
+      "image": "Isometric chocolate brownies.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cookies Cream Cake",
+      "category": "cakes",
+      "description": "Our Cookies Cream Cake is a delightful blend of cookies and cream, perfect for any occasion.",
+      "rating": 4.7,
+      "price": 450,
+      "image": "Cookies Cream Cake.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Classic Cheesecake",
+      "category": "cakes",
+      "description": "Enjoy the timeless elegance of our Classic Cheesecake, a creamy and heavenly dessert.",
+      "rating": 4.9,
+      "price": 380,
+      "image": "Classic Cheesecake.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cherry Jelly Cheesecake",
+      "category": "cakes",
+      "description": "Savor the sweet tang of cherry jelly paired with the creaminess of our Cheesecake.",
+      "rating": 4.6,
+      "price": 420,
+      "image": "Cherry Jelly Cheesecake.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Blueberries Cake",
+      "category": "cakes",
+      "description": "Indulge in the luscious combination of chocolate and blueberries with our Chocolate Blueberries Cake.",
+      "rating": 4.8,
+      "price": 480,
+      "image": "Chocolate Blueberries Cake.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Summer Berries",
+      "category": "cakes",
+      "description": "Experience the taste of summer with our Chocolate Summer Berries cake, bursting with fruity goodness.",
+      "rating": 4.7,
+      "price": 460,
+      "image": "Chocolate Summer Berries.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Fruit Cake",
+      "category": "cakes",
+      "description": "Our Fruit Cake is a delightful medley of fresh fruits and moist cake layers, a true crowd-pleaser.",
+      "rating": 4.6,
+      "price": 420,
+      "image": "Fruit Cake.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Monster Theme Cake",
+      "category": "cakes",
+      "description": "Make your celebrations memorable with our Monster Theme Cake, perfect for kids and kids at heart.",
+      "rating": 4.9,
+      "price": 490,
+      "image": "Monster Theme Cake.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Butter Cookies",
+      "category": "cookies",
+      "description": "Indulge in the melt-in-your-mouth goodness of our Butter Cookies, a classic favorite.",
+      "rating": 4.7,
+      "price": 150,
+      "image": "Butter Cookies.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Chocolate Cookies",
+      "category": "cookies",
+      "description": "Satisfy your chocolate cravings with our Chocolate Cookies, a heavenly treat for chocolate lovers.",
+      "rating": 4.8,
+      "price": 170,
+      "image": "Chocolate Cookies.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Berries Summer Cupcakes",
+      "category": "cupcakes",
+      "description": "Celebrate summer with our Berries Summer Cupcakes, adorned with a burst of fresh berries.",
+      "rating": 4.6,
+      "price": 80,
+      "image": "Berries Summer Cupcakes.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Cupcake",
+      "category": "cupcakes",
+      "description": "Indulge in the rich and moist goodness of our Chocolate Cupcake, a chocolate lover's dream.",
+      "rating": 4.7,
+      "price": 90,
+      "image": "Chocolate Cupcake.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Bonbons",
+      "category": "cupcakes",
+      "description": "Experience the perfect bite-sized indulgence with our Chocolate Bonbons cupcakes.",
+      "rating": 4.5,
+      "price": 85,
+      "image": "Chocolate Bonbons.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Easter Cupcakes",
+      "category": "cupcakes",
+      "description": "Celebrate Easter with our adorable and delicious Easter Cupcakes, perfect for the holiday.",
+      "rating": 4.8,
+      "price": 95,
+      "image": "Easter Cupcakes.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Muffin Devil Horns",
+      "category": "cupcakes",
+      "description": "Embrace the devilishly good taste of our Muffin Devil Horns cupcakes, a sweet and spicy delight.",
+      "rating": 4.7,
+      "price": 88,
+      "image": "Muffin Devil Horns.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Muffin Ghost",
+      "category": "cupcakes",
+      "description": "Get into the spooky spirit with our Muffin Ghost cupcakes, perfect for Halloween celebrations.",
+      "rating": 4.5,
+      "price": 85,
+      "image": "Muffin Ghost.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Pumpkin Spice Cupcakes",
+      "category": "cupcakes",
+      "description": "Fall in love with the warm and cozy flavors of our Pumpkin Spice Cupcakes, a seasonal favorite.",
+      "rating": 4.7,
+      "price": 90,
+      "image": "Pumpkin Spice Cupcakes.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "quantity": 2,
+      "customerName": "Nathan Diaz",
+      "customerEmail": "nathan@gmail.com",
+      "customerPhone": "7896541212",
+      "address": "45, Jackson street, Stolkton, USA",
+      "orderDate": "2023-09-13",
+      "name": "Chocolate Summer Berries",
+      "id": 1
+    },
+    {
+      "quantity": 2,
+      "orderDate": "2023-09-14",
+      "customerName": "Jacob Sans",
+      "customerEmail": "janit@aol.com",
+      "customerPhone": "9487848745",
+      "address": "46, Twin tower, Maryland, USA",
+      "name": "Cookies Cream Cake",
+      "id": 2
+    },
+    {
+      "quantity": 3,
+      "customerName": "David C. Zimmerman",
+      "customerEmail": "DavidCZimmerman@rhyta.com",
+      "customerPhone": "8472737899",
+      "address": "973 Dovetail Drive, Illinois",
+      "orderDate": "2023-09-17",
+      "name": "Chocolate Cookies",
+      "id": 3
+    },
+    {
+      "quantity": 899,
+      "orderDate": "2023-11-14T18:30:00.000Z",
+      "customerName": "MANAV JAYWANT WAJE",
+      "customerEmail": "manavwaje9967@gmail.com",
+      "customerPhone": "+917208875100",
+      "address": "",
+      "name": "Chocolate Summer Berries",
+      "id": 4
+    },
+    {
+      "quantity": 1,
+      "orderDate": "2023-11-23T18:30:00.000Z",
+      "customerName": "MANAV JAYWANT WAJE",
+      "customerEmail": "manavwaje9967@gmail.com",
+      "customerPhone": "+917208875100",
+      "address": "afafa,afaafasfacac,ac",
+      "name": "Isometric Chocolate Brownies",
+      "id": 5
+    },
+    {
+      "quantity": 5,
+      "orderDate": "2023-11-22T18:30:00.000Z",
+      "customerName": "Manav Waje",
+      "customerEmail": "manavwaje9967@gmail.com",
+      "customerPhone": "+917208875100",
+      "address": "afafa,afaafasfacac,ac",
+      "name": "Classic Cheesecake",
+      "id": 6
+    },
+    {
+      "quantity": 1,
+      "orderDate": "2023-11-21T18:30:00.000Z",
+      "customerName": "MANAV JAYWANT WAJE",
+      "customerEmail": "manavwaje9967@gmail.com",
+      "customerPhone": "+917208875100",
+      "address": "afafa,afaafasfacac,ac",
+      "name": "Chocolate Blueberries Cake",
+      "id": 7
+    },
+    {
+      "quantity": 5,
+      "orderDate": "2023-11-27T18:30:00.000Z",
+      "customerName": "MAmta Waje",
+      "customerEmail": "mamta@email.com",
+      "customerPhone": "45446668656",
+      "address": "Shreemothanafa afafwfwaf, afafawfa",
+      "name": "Chocolate Summer Berries",
+      "id": 8
+    },
+    {
+      "quantity": 2,
+      "orderDate": "2023-11-27T18:30:00.000Z",
+      "customerName": "MAmta Waje",
+      "customerEmail": "mamta@email.com",
+      "customerPhone": "45446668656",
+      "address": "Shreemothanafa afafwfwaf, afafawfa",
+      "name": "Cookies Cream Cake",
+      "id": 9
+    }
+  ]
+}
